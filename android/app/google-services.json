@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "908998992312",
+    "project_id": "kuizu-d00bd",
+    "storage_bucket": "kuizu-d00bd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:908998992312:android:bb3241acd9599cb1af2f4d",
+        "android_client_info": {
+          "package_name": "com.example.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "908998992312-bvclcdurptbt64m21nikfi0vb7e6msmm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.app",
+            "certificate_hash": "b77bdd7e96602cf79fcf89bbe35a9a3f0d26096c"
+          }
+        },
+        {
+          "client_id": "908998992312-v49nom7nknjeahoi73bumi7v4bm8ml7h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA423qfIO8b--luU3SLg83kj8Oa0I9bJ2M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "908998992312-v49nom7nknjeahoi73bumi7v4bm8ml7h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
