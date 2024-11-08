@@ -1,0 +1,234 @@
+[
+    {
+        "type": "textQuestion",
+        "category": "Science",
+        "questionBody": "What is the chemical symbol for water?",
+        "id": "1",
+        "answer": {
+            "type": "openTextAnswer",
+            "correctAnswer": "H2O"
+        }
+    },
+    {
+        "type": "textQuestion",
+        "category": "Geography",
+        "questionBody": "What is the capital of France?",
+        "id": "2",
+        "answer": {
+            "type": "openTextAnswer",
+            "correctAnswer": "Paris"
+        }
+    },
+    {
+        "type": "textQuestion",
+        "category": "History",
+        "questionBody": "Who was the first President of the United States?",
+        "id": "3",
+        "answer": {
+            "type": "multipleChoiceAnswer",
+            "correctAnswer": "George Washington",
+            "answerOptions": [
+                "George Washington",
+                "Thomas Jefferson",
+                "Abraham Lincoln",
+                "John Adams"
+            ]
+        }
+    },
+    {
+        "type": "imageQuestion",
+        "category": "Art",
+        "imagePath": "https://cdn.britannica.com/24/189624-050-F3C5BAA9/Mona-Lisa-oil-wood-panel-Leonardo-da.jpg",
+        "id": "4",
+        "answer": {
+            "type": "openTextAnswer",
+            "correctAnswer": "Mona Lisa"
+        }
+    },
+    {
+        "type": "textQuestion",
+        "category": "Science",
+        "questionBody": "What planet is known as the Red Planet?",
+        "id": "5",
+        "answer": {
+            "type": "multipleChoiceAnswer",
+            "correctAnswer": "Mars",
+            "answerOptions": [
+                "Earth",
+                "Jupiter",
+                "Mars",
+                "Saturn"
+            ]
+        }
+    },
+    {
+        "type": "textQuestion",
+        "category": "Math",
+        "questionBody": "What is 9 multiplied by 9?",
+        "id": "6",
+        "answer": {
+            "type": "openTextAnswer",
+            "correctAnswer": "81"
+        }
+    },
+    {
+        "type": "textQuestion",
+        "category": "Sports",
+        "questionBody": "Which country hosted the 2016 Summer Olympics?",
+        "id": "7",
+        "answer": {
+            "type": "multipleChoiceAnswer",
+            "correctAnswer": "Brazil",
+            "answerOptions": [
+                "Brazil",
+                "China",
+                "USA",
+                "Japan"
+            ]
+        }
+    },
+    {
+        "type": "imageQuestion",
+        "category": "Geography",
+        "imagePath": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Tour_Eiffel_Wikimedia_Commons.jpg",
+        "id": "8",
+        "answer": {
+            "type": "openTextAnswer",
+            "correctAnswer": "Eiffel Tower"
+        }
+    },
+    {
+        "type": "textQuestion",
+        "category": "History",
+        "questionBody": "In which year did World War II end?",
+        "id": "9",
+        "answer": {
+            "type": "multipleChoiceAnswer",
+            "correctAnswer": "1945",
+            "answerOptions": [
+                "1939",
+                "1942",
+                "1945",
+                "1950"
+            ]
+        }
+    },
+    {
+        "type": "textQuestion",
+        "category": "Music",
+        "questionBody": "Who is known as the 'King of Pop'?",
+        "id": "10",
+        "answer": {
+            "type": "openTextAnswer",
+            "correctAnswer": "Michael Jackson"
+        }
+    },
+    {
+        "type": "textQuestion",
+        "category": "Science",
+        "questionBody": "How many bones are in the human body?",
+        "id": "11",
+        "answer": {
+            "type": "openTextAnswer",
+            "correctAnswer": "206"
+        }
+    },
+    {
+        "type": "textQuestion",
+        "category": "Literature",
+        "questionBody": "Who wrote 'Pride and Prejudice'?",
+        "id": "12",
+        "answer": {
+            "type": "openTextAnswer",
+            "correctAnswer": "Jane Austen"
+        }
+    },
+    {
+        "type": "textQuestion",
+        "category": "Geography",
+        "questionBody": "Which is the largest ocean on Earth?",
+        "id": "13",
+        "answer": {
+            "type": "multipleChoiceAnswer",
+            "correctAnswer": "Pacific Ocean",
+            "answerOptions": [
+                "Atlantic Ocean",
+                "Indian Ocean",
+                "Arctic Ocean",
+                "Pacific Ocean"
+            ]
+        }
+    },
+    {
+        "type": "textQuestion",
+        "category": "Sports",
+        "questionBody": "How many players are on a soccer team?",
+        "id": "15",
+        "answer": {
+            "type": "openTextAnswer",
+            "correctAnswer": "11"
+        }
+    },
+    {
+        "type": "textQuestion",
+        "category": "Science",
+        "questionBody": "What gas do plants absorb from the atmosphere?",
+        "id": "16",
+        "answer": {
+            "type": "openTextAnswer",
+            "correctAnswer": "Carbon dioxide"
+        }
+    },
+    {
+        "type": "textQuestion",
+        "category": "Entertainment",
+        "questionBody": "Which movie won the Oscar for Best Picture in 1997?",
+        "id": "17",
+        "answer": {
+            "type": "multipleChoiceAnswer",
+            "correctAnswer": "Titanic",
+            "answerOptions": [
+                "Titanic",
+                "The Matrix",
+                "Forrest Gump",
+                "Braveheart"
+            ]
+        }
+    },
+    {
+        "type": "textQuestion",
+        "category": "Technology",
+        "questionBody": "Who is the founder of Microsoft?",
+        "id": "18",
+        "answer": {
+            "type": "openTextAnswer",
+            "correctAnswer": "Bill Gates"
+        }
+    },
+    {
+        "type": "imageQuestion",
+        "category": "Geography",
+        "imagePath": "https://cdn.britannica.com/17/83817-050-67C814CD/Mount-Everest.jpg",
+        "id": "19",
+        "answer": {
+            "type": "openTextAnswer",
+            "correctAnswer": "Mount Everest"
+        }
+    },
+    {
+        "type": "textQuestion",
+        "category": "Science",
+        "questionBody": "Which planet is closest to the Sun?",
+        "id": "20",
+        "answer": {
+            "type": "multipleChoiceAnswer",
+            "correctAnswer": "Mercury",
+            "answerOptions": [
+                "Mercury",
+                "Venus",
+                "Earth",
+                "Mars"
+            ]
+        }
+    }
+]

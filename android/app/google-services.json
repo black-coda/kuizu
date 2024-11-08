@@ -7,17 +7,17 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:908998992312:android:bb3241acd9599cb1af2f4d",
+        "mobilesdk_app_id": "1:908998992312:android:39a246cb505c0582af2f4d",
         "android_client_info": {
-          "package_name": "com.example.app"
+          "package_name": "com.example.kuizu"
         }
       },
       "oauth_client": [
         {
-          "client_id": "908998992312-bvclcdurptbt64m21nikfi0vb7e6msmm.apps.googleusercontent.com",
+          "client_id": "908998992312-5gdmq31utcmjojg47esuibcptl42t52t.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.app",
+            "package_name": "com.example.kuizu",
             "certificate_hash": "b77bdd7e96602cf79fcf89bbe35a9a3f0d26096c"
           }
         },
@@ -37,6 +37,13 @@
             {
               "client_id": "908998992312-v49nom7nknjeahoi73bumi7v4bm8ml7h.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "908998992312-msf5eoh0oh3d3fate04hcp22jg7lvrm7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.kuizu"
+              }
             }
           ]
         }

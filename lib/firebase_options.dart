@@ -51,7 +51,7 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: 'AIzaSyA423qfIO8b--luU3SLg83kj8Oa0I9bJ2M',
-    appId: '1:908998992312:android:bb3241acd9599cb1af2f4d',
+    appId: '1:908998992312:android:39a246cb505c0582af2f4d',
     messagingSenderId: '908998992312',
     projectId: 'kuizu-d00bd',
     storageBucket: 'kuizu-d00bd.appspot.com',
@@ -87,4 +87,5 @@ class DefaultFirebaseOptions {
     authDomain: 'kuizu-d00bd.firebaseapp.com',
     storageBucket: 'kuizu-d00bd.appspot.com',
   );
+
 }

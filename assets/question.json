@@ -1,0 +1,250 @@
+[
+  {
+    "type": "multipleChoiceAnswer",
+    "category": "History",
+    "answer": {
+      "type": "multipleChoiceAnswer",
+      "correctAnswer": "George Washington",
+      "answerOptions": [
+        "George Washington",
+        "Abraham Lincoln",
+        "John F. Kennedy",
+        "Thomas Jefferson"
+      ]
+    },
+    "questionBody": "Who was the first president of the United States?",
+    "id": "1"
+  },
+  {
+    "type": "multipleChoiceAnswer",
+    "category": "Geography",
+    "answer": {
+      "type": "multipleChoiceAnswer",
+      "correctAnswer": "Mount Everest",
+      "answerOptions": [
+        "Mount Everest",
+        "Mount Kilimanjaro",
+        "K2",
+        "Mount Elbrus"
+      ]
+    },
+    "imagePath": "https://cdn.britannica.com/17/83817-050-67C814CD/Mount-Everest.jpg",
+    "id": "2"
+  },
+  {
+    "type": "openTextAnswer",
+    "category": "Science",
+    "answer": {
+      "type": "openTextAnswer",
+      "correctAnswer": "Water"
+    },
+    "questionBody": "What is H2O more commonly known as?",
+    "id": "3"
+  },
+  {
+    "type": "multipleChoiceAnswer",
+    "category": "Sports",
+    "answer": {
+      "type": "multipleChoiceAnswer",
+      "correctAnswer": "Soccer",
+      "answerOptions": [
+        "Soccer",
+        "Basketball",
+        "Tennis",
+        "Baseball"
+      ]
+    },
+    "questionBody": "Which sport is known as 'The Beautiful Game'?",
+    "id": "4"
+  },
+  {
+    "type": "multipleChoiceAnswer",
+    "category": "Nature",
+    "answer": {
+      "type": "multipleChoiceAnswer",
+      "correctAnswer": "Elephant",
+      "answerOptions": [
+        "Elephant",
+        "Lion",
+        "Tiger",
+        "Giraffe"
+      ]
+    },
+    "imagePath": "https://cdn.britannica.com/02/152302-050-1A984FCB/African-savanna-elephant.jpg",
+    "id": "5"
+  },
+  {
+    "type": "openTextAnswer",
+    "category": "Literature",
+    "answer": {
+      "type": "openTextAnswer",
+      "correctAnswer": "William Shakespeare"
+    },
+    "questionBody": "Who wrote 'Romeo and Juliet'?",
+    "id": "6"
+  },
+  {
+    "type": "openTextAnswer",
+    "category": "Movies",
+    "answer": {
+      "type": "openTextAnswer",
+      "correctAnswer": "Titanic"
+    },
+    "questionBody": "Which movie features the famous line 'I'm the king of the world!'?",
+    "id": "7"
+  },
+  {
+    "type": "multipleChoiceAnswer",
+    "category": "Geography",
+    "answer": {
+      "type": "multipleChoiceAnswer",
+      "correctAnswer": "The Eiffel Tower",
+      "answerOptions": [
+        "The Eiffel Tower",
+        "Big Ben",
+        "The Colosseum",
+        "The Statue of Liberty"
+      ]
+    },
+    "imagePath": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Tour_Eiffel_Wikimedia_Commons.jpg",
+    "id": "8"
+  },
+  {
+    "type": "booleanAnswer",
+    "category": "Technology",
+    "answer": {
+      "type": "booleanAnswer",
+      "correctAnswer": "True"
+    },
+    "questionBody": "Is Apple the company that created the iPhone?",
+    "id": "9"
+  },
+  {
+    "type": "openTextAnswer",
+    "category": "Music",
+    "answer": {
+      "type": "openTextAnswer",
+      "correctAnswer": "Michael Jackson"
+    },
+    "questionBody": "Who is known as the 'King of Pop'?",
+    "id": "10"
+  },
+  {
+    "type": "openTextAnswer",
+    "category": "Science",
+    "answer": {
+      "type": "openTextAnswer",
+      "correctAnswer": "Isaac Newton"
+    },
+    "questionBody": "Who formulated the laws of motion and gravity?",
+    "id": "11"
+  },
+  {
+    "type": "multipleChoiceAnswer",
+    "category": "Nature",
+    "answer": {
+      "type": "multipleChoiceAnswer",
+      "correctAnswer": "Panda",
+      "answerOptions": [
+        "Panda",
+        "Koala",
+        "Polar Bear",
+        "Grizzly Bear"
+      ]
+    },
+    "imagePath": "https://cdn.britannica.com/78/150978-050-48FB0F59/Giant-panda-bamboo.jpg",
+    "id": "12"
+  },
+  {
+    "type": "openTextAnswer",
+    "category": "History",
+    "answer": {
+      "type": "openTextAnswer",
+      "correctAnswer": "The Great Wall of China"
+    },
+    "questionBody": "Which structure is the longest wall in the world?",
+    "id": "13"
+  },
+  {
+    "type": "openTextAnswer",
+    "category": "Geography",
+    "answer": {
+      "type": "openTextAnswer",
+      "correctAnswer": "The Amazon"
+    },
+    "questionBody": "Which is the largest rainforest in the world?",
+    "id": "14"
+  },
+  {
+    "type": "openTextAnswer",
+    "category": "Sports",
+    "answer": {
+      "type": "openTextAnswer",
+      "correctAnswer": "Usain Bolt"
+    },
+    "questionBody": "Who holds the world record for the 100m sprint?",
+    "id": "15"
+  },
+  {
+    "type": "multipleChoiceAnswer",
+    "category": "Art",
+    "answer": {
+      "type": "multipleChoiceAnswer",
+      "correctAnswer": "The Mona Lisa",
+      "answerOptions": [
+        "The Mona Lisa",
+        "Starry Night",
+        "The Scream",
+        "Girl with a Pearl Earring"
+      ]
+    },
+    "imagePath": "https://cdn.britannica.com/24/189624-050-F3C5BAA9/Mona-Lisa-oil-wood-panel-Leonardo-da.jpg",
+    "id": "16"
+  },
+  {
+    "type": "openTextAnswer",
+    "category": "Movies",
+    "answer": {
+      "type": "openTextAnswer",
+      "correctAnswer": "The Lord of the Rings"
+    },
+    "questionBody": "Which movie series is based on the books by J.R.R. Tolkien?",
+    "id": "17"
+  },
+  {
+    "type": "openTextAnswer",
+    "category": "Technology",
+    "answer": {
+      "type": "openTextAnswer",
+      "correctAnswer": "Mark Zuckerberg"
+    },
+    "questionBody": "Who founded Facebook?",
+    "id": "18"
+  },
+  {
+    "type": "openTextAnswer",
+    "category": "Science",
+    "answer": {
+      "type": "openTextAnswer",
+      "correctAnswer": "Photosynthesis"
+    },
+    "questionBody": "What is the process by which plants make their food?",
+    "id": "19"
+  },
+  {
+    "type": "multipleChoiceAnswer",
+    "category": "Geography",
+    "answer": {
+      "type": "multipleChoiceAnswer",
+      "correctAnswer": "The Grand Canyon",
+      "answerOptions": [
+        "The Grand Canyon",
+        "Niagara Falls",
+        "Mount Fuji",
+        "Victoria Falls"
+      ]
+    },
+    "imagePath": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Dawn_on_the_S_rim_of_the_Grand_Canyon_%288645178272%29.jpg/1920px-Dawn_on_the_S_rim_of_the_Grand_Canyon_%288645178272%29.jpg",
+    "id": "20"
+  }
+]
