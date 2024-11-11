@@ -39,7 +39,7 @@ class Player {
             currentScore: json["score"] as int,
             name: json['name'] as String,
             leaderBoardStats: LeaderBoardStats.fromJson(
-                json["leadBoardStats"] as Map<String, dynamic>)),
+                json["leaderBoardStats"] as Map<String, dynamic>)),
       _ => throw const FormatException("Invalid json format"),
     };
   }

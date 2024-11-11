@@ -3,14 +3,14 @@ import 'package:flutter/material.dart';
 import '../theme.dart';
 import 'seasons_decoration.dart';
 
-class MarketCardWithDecoration extends StatelessWidget {
-  const MarketCardWithDecoration({super.key, required this.child});
+class ThemeManagerCardWithDecoration extends StatelessWidget {
+  const ThemeManagerCardWithDecoration({super.key, required this.child});
 
   final Widget child;
 
   @override
   Widget build(BuildContext context) {
-    return MarketCard(
+    return ThemeManagerCard(
       child: Padding(
         padding: EdgeInsets.all(ThemeManager.spacing4),
         child: Column(
@@ -27,8 +27,8 @@ class MarketCardWithDecoration extends StatelessWidget {
   }
 }
 
-class MarketCard extends StatelessWidget {
-  const MarketCard({super.key, required this.child});
+class ThemeManagerCard extends StatelessWidget {
+  const ThemeManagerCard({super.key, required this.child});
 
   final Widget child;
 

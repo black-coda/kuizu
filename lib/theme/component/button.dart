@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 
 import '../theme.dart';
 
-class MarketButton extends StatefulWidget {
-  MarketButton(
+class ThemeManagerButton extends StatefulWidget {
+  const ThemeManagerButton(
       {required this.onPressed, super.key, required this.text, this.color});
 
   final Function onPressed;
@@ -11,10 +11,10 @@ class MarketButton extends StatefulWidget {
   final Color? color;
 
   @override
-  State<MarketButton> createState() => _MarketButtonState();
+  State<ThemeManagerButton> createState() => _ThemeManagerButtonState();
 }
 
-class _MarketButtonState extends State<MarketButton> {
+class _ThemeManagerButtonState extends State<ThemeManagerButton> {
   bool pressed = false;
   bool hovered = false;
   final Color pressedColor = ThemeManager.theme.colorScheme.primary;
@@ -72,7 +72,7 @@ class _MarketButtonState extends State<MarketButton> {
             borderRadius: BorderRadius.circular(24),
           ),
           child: Padding(
-            padding: EdgeInsets.symmetric(vertical: 12, horizontal: 72),
+            padding: const EdgeInsets.symmetric(vertical: 12, horizontal: 72),
             child: Text(
               textAlign: TextAlign.center,
               style: ThemeManager.label,
