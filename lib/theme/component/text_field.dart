@@ -4,16 +4,16 @@ import '../theme.dart';
 
 typedef TextChangedCallback = void Function(String?);
 
-class MarketTextField extends StatefulWidget {
-  const MarketTextField({super.key, required this.onChange});
+class ThemeManagerTextField extends StatefulWidget {
+  const ThemeManagerTextField({super.key, required this.onChange});
 
   final TextChangedCallback onChange;
 
   @override
-  State<MarketTextField> createState() => _MarketTextFieldState();
+  State<ThemeManagerTextField> createState() => _ThemeManagerTextFieldState();
 }
 
-class _MarketTextFieldState extends State<MarketTextField> {
+class _ThemeManagerTextFieldState extends State<ThemeManagerTextField> {
   final TextEditingController _controller = TextEditingController();
 
   @override

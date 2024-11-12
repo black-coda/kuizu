@@ -5,16 +5,16 @@ import 'circle.dart';
 
 typedef BoolSelectionCallback = void Function(bool);
 
-class MarketSwitch extends StatefulWidget {
-  const MarketSwitch({super.key, required this.onTap});
+class ThemeManagerSwitch extends StatefulWidget {
+  const ThemeManagerSwitch({super.key, required this.onTap});
 
   final BoolSelectionCallback onTap;
 
   @override
-  State<MarketSwitch> createState() => _MarketSwitchState();
+  State<ThemeManagerSwitch> createState() => _ThemeManagerSwitchState();
 }
 
-class _MarketSwitchState extends State<MarketSwitch> {
+class _ThemeManagerSwitchState extends State<ThemeManagerSwitch> {
   bool val = false;
 
   @override
@@ -48,7 +48,7 @@ class _MarketSwitchState extends State<MarketSwitch> {
               ),
               AnimatedAlign(
                 alignment: val ? Alignment.centerRight : Alignment.centerLeft,
-                duration: Duration(milliseconds: 100),
+                duration: const Duration(milliseconds: 100),
                 child: Circle(
                   size: 24,
                   color: ThemeManager.theme.colorScheme.onPrimary,
