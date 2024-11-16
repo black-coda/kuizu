@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:kuizu/app/app_state.dart';
+import 'package:kuizu/app/views/multiple_choice_answer_widget.dart';
 import 'package:kuizu/model/answer_model.dart';
 import 'package:kuizu/theme/component/button.dart';
 import 'package:kuizu/theme/component/switch.dart';
@@ -7,7 +8,7 @@ import 'package:kuizu/theme/component/text_field.dart';
 import 'package:kuizu/theme/theme.dart';
 import 'package:provider/provider.dart';
 
-abstract class AnswerWidget extends StatefulWidget {
+sealed  class AnswerWidget extends StatefulWidget {
   const AnswerWidget({super.key});
 }
 
@@ -91,7 +92,7 @@ class _BooleanAnswerWidgetState extends State<BooleanAnswerWidget> {
 
 const List<String> multipleChoiceAnswerKey = ['A', 'B', 'C', 'D'];
 
-class MultipleChoiceWidget extends StatefulWidget {
+class MultipleChoiceWidget extends AnswerWidget {
   const MultipleChoiceWidget(this.answer, {super.key});
 
   final MultipleChoiceAnswer answer;
@@ -103,7 +104,7 @@ class MultipleChoiceWidget extends StatefulWidget {
 class _MultipleChoiceWidgetState extends State<MultipleChoiceWidget> {
   int _selectedButtonIndex = -1;
 
-  bool _isActive = true;
+  final bool _isActive = true;
 
   List<Widget> _buildbuttons(AppState state) {
     final answer = widget.answer.answerOptions;
@@ -113,13 +114,30 @@ class _MultipleChoiceWidgetState extends State<MultipleChoiceWidget> {
       final bool isSelected = index == _selectedButtonIndex;
       return Padding(
         padding: EdgeInsets.all(ThemeManager.spacing8),
-        child: SizedBox(),
+        child: MultipleChoiceAnswerButtonWidget(
+          onPressed: () {
+            setState(() {
+              _selectedButtonIndex = index;
+            });
+
+            // validate answer
+            state.validateAnswer(answerOption);
+          },
+          text: "${multipleChoiceAnswerKey[index]}.  $answerOption",
+          isSelected: isSelected,
+          isCorrectAnswer: isCorrectAnswer,
+          isActive: _isActive,
+        ),
       );
     }).toList();
   }
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+
+    final state = context.watch<AppState>();
+    return Column(
+      children: _buildbuttons(state),
+    );
   }
 }
